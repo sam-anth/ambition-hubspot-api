@@ -1,0 +1,32 @@
+{
+  "name": "ambition-hubspot-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sama1806/ambition-hubspot-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sama1806/ambition-hubspot-api/issues"
+  },
+  "homepage": "https://github.com/sama1806/ambition-hubspot-api#readme",
+  "dependencies": {
+    "@hubspot/api-client": "^6.0.1-beta.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "hubspot": "^2.3.14",
+    "mysql": "github:mysqljs/mysql",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
